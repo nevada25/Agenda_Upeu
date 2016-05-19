@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageSwitcher
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageSwitcher"
+        android:layout_gravity="top"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginRight="-25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="339dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="339dp"
+            android:layout_height="35dp"
+            android:text="AGENDA TELEFÓNICA UNIVERSIDAD PERUANA UNION"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#6a3692"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="214dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/t"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
